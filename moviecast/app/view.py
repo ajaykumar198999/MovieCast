@@ -180,3 +180,5 @@ def castcontent(request):
         else:
             Cast(**inpdata).save()
             return Response(status=200, data=inpdata)
+
+# Task completed
